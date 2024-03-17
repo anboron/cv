@@ -1,0 +1,13 @@
+{
+  "css.validate": false,
+  "eslint.options": {
+    "overrideConfigFile": "./.eslintrc.cjs"
+  },
+  "eslint.workingDirectories": ["./code"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "prettier.configPath": "./.prettierrc",
+  "stylelint.configFile": "./.stylelintrc.json",
+  "typescript.preferences.importModuleSpecifier": "non-relative"
+}

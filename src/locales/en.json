@@ -1,0 +1,14 @@
+{
+  "translation": {
+    "theme": {
+      "dark": "Dark mode",
+      "light": "Light mode"
+    },
+    "education": "Education",
+    "projects": "Projects",
+    "technologies": "Technologies",
+    "languages": "Languages",
+    "social": "Social media",
+    "experience": "Experience"
+  }
+}
