@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
-// import "overlayscrollbars/overlayscrollbars.css";
 import "@/assets/styles/global.css";
 import { AppRoutes } from "@/routes";
 import ColorProvider from "@/components/color-provider";
