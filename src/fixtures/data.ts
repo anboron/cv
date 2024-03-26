@@ -56,19 +56,42 @@ export const data = {
           name: "Senior developer",
           details: { from: "Nov. 2021", to: "Currently", additional: "GFT" },
           description: [
-            "Development for the client Inditex. Projects: API Portal, API Hub, API 360, API Marketplace, PIPE Panel.",
+            "Development for the client Inditex.",
+            `Projects using React >= 16.8 with TypeScript and the AMIGA corporative Framework for the client side, NodeJS for backend services and Jest for testing:
+            - API Portal.
+            - API Hub.
+            - API Marketplace.
+            - PIPE Panel.`,
+            "Github PRs that meet the Sonar requirements, deployment through Github actions",
           ],
         },
         {
           name: "Full-stack developer",
           details: { from: "Jan. 2019", to: "Nov. 2021", additional: "Pecunpay" },
-          description: ["Web application development for a Fintech company."],
+          description: [
+            "Web application development for a Fintech company.",
+            "Responsible for architecture and definition of Front-end projects, development, testing, deployment, code maintenance.",
+            "Participation in scope and work planning, writing technical documentation, presentations, contributing to determine internal processes.",
+            "Orientation to technical team members and interns, participation on the recruitment process of new employees.",
+            `Projects using React >= 16.8 with Redux for the client side, TypeScript, NodeJS for backend services and Storybook for UI development and Jest and Cypress for testing:
+            - Corporate websites (with Gatsby framework, GraphQL).
+            - Series of websites for contracting white label products (Gatsby framework and GraphQL for each of the websites, Rollup for unifying the contracting process in a single library, Storybook for creating a design system with Sass and CSS modules).
+            - PSD2 validation webview for white label clients (React-JSS to generate different themes, developing a demo for the clients)
+            - Request discount webview.`,
+            "Deployment configuring the nginx server",
+          ],
         },
         {
           name: "Full-stack developer",
           details: { from: "Mar. 2017", to: "Jan. 2019", additional: "Gwella Mobile" },
           description: [
             "Web applications development, web layouts, MVC architecture, configuration and maintenance of databases, REST services, servers configuration",
+            `Projects carried out:
+            - Push and beacon notification platform with its push notifications queue using RabbitMQ message-broker.
+            - PHP and NodeJS Backend services for clients' mobile applications and corporate websites (lottery, real estate agency, events).
+            - Corporate websites (with Laravel or React framework).
+            - Series of web applications to control the resources of the Santillana educational publishing house.`,
+            "Deployment configuring the nginx server",
           ],
         },
         {
@@ -389,3 +412,4 @@ export const data = {
     },
   },
 };
+
